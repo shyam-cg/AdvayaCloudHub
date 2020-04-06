@@ -1,10 +1,10 @@
 [loadbalancer]
-lb01
+lb01 ansible_connection=local
 
 [webserver]
 app01
 app02
-app03
+app03 ansible_connection=local
 
 [database]
 db01
